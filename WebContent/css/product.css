@@ -1,0 +1,58 @@
+.product-container {
+    padding: 5px;
+}
+
+.product-href {
+    display: block;
+    text-decoration: none !important;
+    overflow: auto;
+}
+
+.product-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-item {
+    background: white;
+    border-radius: 4px;
+}
+
+.product-info {
+    margin: auto;
+    padding: 20px 0px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.product-info .phone-name,
+.phone-cost {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.product-info .phone-name {
+    color: black;
+}
+
+.product-info .phone-cost {
+    color: red;
+    font-weight: 600;
+}
+
+.product-info .buy-btn {
+    display: block;
+    width: 100%;
+    color: orange;
+    border: 1px orange solid;
+    border-radius: 18px;
+    padding: 4px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.product-info .buy-btn:hover {
+    text-decoration: none;
+    background: orange;
+    color: white;
+}

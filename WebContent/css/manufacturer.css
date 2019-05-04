@@ -1,0 +1,47 @@
+.manuf-container {
+    float: left;
+    width: 16.66%;
+    padding: 0px 5px;
+    margin: 5px 0px;
+}
+
+.manuf-item {
+    display: block;
+    border: 1px #ddd solid;
+    border-radius: 20px;
+    background: white;
+    overflow: auto;
+    padding: 8px 0px;
+    text-align: center;
+    color: #007aff;
+    font-size: 1.2em;
+}
+
+.manuf-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .manuf-container {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .manuf-container {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .manuf-container {
+        width: 50%;
+    }
+}
+
+.manuf::after {
+    content: "";
+    display: table;
+    clear: both;
+}

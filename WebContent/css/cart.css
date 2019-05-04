@@ -1,0 +1,174 @@
+.container-item {
+    border-radius: 4px;
+    margin: 20px 0px 5px;
+}
+
+.left-container {
+    padding-right: 10px;
+    padding-left: 5px;
+    float: left;
+    width: 60%;
+}
+
+.right-container {
+    float: right;
+    padding-right: 5px;
+    width: 40%;
+}
+
+.section-item {
+    border-radius: 4px;
+    background: white;
+    padding: 10px;
+}
+
+/* Product */
+
+.products {
+    overflow: auto;
+}
+
+.img-container {
+    float: left;
+    margin-right: 20px;
+}
+
+.product-name {
+    color: #007aff;
+}
+
+.product-name:hover {
+    color: #007aff;
+}
+
+.product-cost {
+    color: red;
+}
+
+.product-option {
+    overflow: auto;
+}
+
+.product-option select {
+    width: 100px;
+    height: 28px;
+    border: 1px #c8c8c8 solid;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.dec {
+    float: left;
+    width: 28px;
+    height: 28px;
+    background: #007aff;
+    color: white;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.inc {
+    float: left;
+    width: 28px;
+    height: 28px;
+    background: #007aff;
+    color: white;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.product-amount {
+    float: left;
+    width: 50px;
+    height: 28px;
+    border: none;
+    border-top: 1px #c8c8c8 solid;
+    border-bottom: 1px #c8c8c8 solid;
+    text-align: center;
+}
+
+.amount-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.del-prod {
+    display: block;
+    float: right;
+    background: #007aff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.del-prod {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#sum {
+    color: red;
+}
+
+/* Employee information */
+.emp-info label {
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+.emp-info input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px #c8c8c8 solid;
+    border-radius: 4px;
+}
+
+.emp-info input[name="emp_name"] {
+    margin-bottom: 10px;
+}
+
+.nav-btn {
+    display: block;
+    background: #007aff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.cont-buy-href {
+    float: left;
+}
+
+.cont-buy-href:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.accept-btn {
+    float: right;
+}
+
+.emp-info {
+    overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container-item {
+        float: none;
+        width: 100%;
+        padding: 0px 5px;
+        margin: 10px 0px;
+    }
+
+    .img-container {
+        float: none;
+        margin-top: 10px;
+        text-align: center;
+    }
+}

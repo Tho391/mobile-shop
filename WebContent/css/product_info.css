@@ -1,0 +1,210 @@
+.container-item {
+    border-radius: 4px;
+    margin: 5px 0px;
+}
+
+.left-container {
+    padding-right: 10px;
+    padding-left: 5px;
+    float: left;
+    width: 65%;
+}
+
+.right-container {
+    float: right;
+    padding-right: 5px;
+    width: 35%;
+}
+
+.section-item {
+    border-radius: 4px;
+    background: white;
+    padding: 10px;
+}
+
+mark {
+	background: yellow;
+	padding: 4px;
+}
+
+/* Product image */
+
+.img-container {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.product-name {
+    margin: 0;
+}
+
+.carousel-control {
+    background: transparent !important;
+}
+
+.buy-btn {
+    display: block;
+    width: 100%;
+    max-width: 240px;
+    padding: 8px 0px;
+    border: 1px orange solid;
+    color: orange !important;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px auto 0px;
+}
+
+.buy-btn:hover {
+    background: orange;
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Product information */
+
+.product-img img {
+    display: block;
+    margin: 10px auto 20px;
+}
+
+.product-cost {
+    color: red;
+    margin: 0;
+}
+
+.figure {
+    padding: 8px 0px;
+    border-bottom: 1px #c8c8c8 solid;
+}
+
+.info-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.info-table th,
+td {
+    padding: 8px 0px;
+    border-bottom: 1px #eee solid;
+    font-weight: normal;
+}
+
+/* Comparison area */
+
+.comp-container {
+    overflow: auto;
+}
+
+.comp-item {
+    float: left;
+    width: 24.9%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.comp-prod-name {
+    display: block;
+    color: #007aff;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.comp-prod-name:hover {
+    color: #007aff;
+}
+
+.comp-prod-cost {
+    color: red;
+    font-weight: 600;
+}
+
+.comp-href {
+    color: #007aff;
+}
+
+.comp-href:hover {
+    color: #007aff;
+}
+
+/* Enter comment */
+
+.enter-comment {
+    overflow: auto;
+}
+
+.enter-comment textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px #c8c8c8 solid;
+    border-radius: 4px;
+    resize: none;
+}
+
+.enter-comment input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px #c8c8c8 solid;
+    border-radius: 4px;
+}
+
+.enter-comment input[type="radio"] {
+    margin-top: 10px;
+}
+
+.enter-comment label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.enter-comment input[type="submit"] {
+    display: block;
+    float: right;
+    background: #007aff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 60px;
+    color: white;
+}
+
+/* Comment */
+
+.answer-btn {
+    background: transparent;
+    border: none;
+    padding: 0px;
+    color: #007aff;
+    font-size: 0.925em;
+}
+
+.answer-btn:hover {
+    text-decoration: underline;
+}
+
+.answer-form {
+    padding-top: 5px;
+    display: none;
+}
+
+.comment hr:last-child {
+	display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .container-item {
+        float: none;
+        padding: 5px 5px 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .comp-item {
+        width: 49.9%
+    }
+}
